@@ -4,6 +4,11 @@ def roll_call_dwarves(names):
         print(f"{i}. {name}")
         i += 1
 
+# def roll_call_dwarves(names):
+#     for i, name in enumerate(names, start=1):
+#         print(f"{i}. {name}")
+        
+
 
 def summon_captain_planet(planeteer_calls):
     new_list = []
@@ -25,3 +30,7 @@ def find_the_cheese(foods):
         if food in cheese_types:
             return food
     return None
+
+
+
+
